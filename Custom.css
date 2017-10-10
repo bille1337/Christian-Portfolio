@@ -1,0 +1,287 @@
+body {
+	font-family: 'proxima-nova', 'Raleway', Helvetica, sans-serif;
+	margin-top: 50px;
+}
+
+h2 {
+  font-family: 'Montserrat', Helvetica, sans-serif;
+}
+
+/* Front page */
+
+video {
+	position: absolute;
+	top: 46%;
+	left: 36%;
+	transform: translate(-50%, -50%);
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+}
+
+.welcome {
+  font-size: 19px;
+  position: relative;
+  margin-left: 120px;
+  bottom: 3px;
+  color: #f4d742;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.menu-item {
+  text-transform: uppercase;
+  font-size: 11px;
+}
+
+#hero {
+  text-align: center;
+  color: white;
+	height: 805px;
+}
+
+.title {
+  padding-top: 22%;
+  font-style: italic;
+  font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.sub-title {
+  font-size: 50px;
+  font-weight: 700;
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  color: #f4d742;
+	padding-bottom: 25px;
+}
+
+.btn-lg {
+  border: 1px solid transparent;
+  font-size: 24px;
+  font-weight: 700;
+  padding: 20px 40px;
+  border-radius: 3px;
+  color: #fff;
+  background-color: #f4d742;
+  font-family: 'Montserrat', Helvetica, sans-serif;
+  text-transform: uppercase;
+}
+
+.btn-lg:hover {
+  color: white;
+  border-color: #f6bf01;
+  background-color: #f4d742;
+  }
+
+.text-center {
+  text-align: center;
+  padding-top: 100px;
+}
+
+#services {
+  background: url("img/tile.jpg") 50% 0 repeat fixed;
+
+}
+
+.heading-services {
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-weight: 700;
+  font-family: 'Montserrat', Helvetica, sans-serif;
+  text-transform: uppercase;
+	color: #f4d742;
+  }
+
+.section-subheading {
+  color: #f4d742;
+  font-weight: 700;
+}
+
+.content-services {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.icon {
+  color: #332e2e;
+}
+
+.fa-wordpress {
+  font-size: 97px;
+  position: relative;
+  top: 9px;
+}
+
+.badge.social {
+	background: #ccc;
+  font-size: 20px;
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  line-height: 34px;
+	margin: 0 5px 20px 0;
+	padding: 0;
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+	border-radius: 50px;
+	color: white;
+}
+
+.badge.social.twitter:hover {
+	background: #55acee;
+}
+
+.badge.social.facebook:hover {
+	background: #3b5998;
+}
+
+.badge.social.gplus:hover {
+	background: #db4b39;
+}
+
+.badge.social.linkedin:hover {
+  background: #007bb6;
+}
+
+.about-content {
+  padding-top: 100px;
+  padding-bottom: 80px;
+}
+
+.name {
+  font-size: 17px;
+}
+
+.hello {
+  font-size: 17px;
+}
+
+/* Slider */
+
+.awesomeSlider {
+	float: right;
+}
+
+.slider {
+  width: 560px;
+  height: 300px;
+  overflow: hidden;
+	margin-top: 160px;
+	margin-left: 32px;
+}
+
+.slider .slides {
+  display: block;
+  width: 6000px;
+  height: 300px;
+  margin: 0;
+  padding: 0;
+}
+
+.slider .slide {
+  width: 720px;
+  height: 300px;
+	float: left;
+	list-style-type: none;
+}
+
+/* Contact */
+
+#contact {
+  background-color: #222222;
+  background-image: url("../img/map-image.png");
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.section-heading {
+  color: white;
+	font-size: 35px;
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-weight: 700;
+  font-family: 'Montserrat', Helvetica, sans-serif;
+  text-transform: uppercase;
+}
+
+.section-subheading {
+	padding-bottom: 30px;
+}
+
+.form-group {
+  margin-bottom: 25px;
+}
+
+.form-group input,
+.form-group textarea {
+  padding: 20px;
+}
+
+.form-control {
+  height: auto;
+}
+
+.form-control:focus {
+  border-color: #fed136;
+  box-shadow: none;
+}
+
+#contact ::-webkit-input-placeholder {
+  font-weight: 700;
+  color: #eeeeee;
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+}
+
+.send-message {
+	position: relative;
+	bottom: 65px;
+	font-size: 13px;s
+}
+
+/* Footer */
+
+footer {
+	padding: 25px 0;
+  text-align: center;
+}
+
+footer span.copyright {
+  font-size: 90%;
+  line-height: 60px;
+  text-transform: none;
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+	color: #fed136;
+}
+
+footer ul.quicklinks {
+  font-size: 90%;
+  line-height: 60px;
+  margin-bottom: 0;
+  text-transform: none;
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+}
+
+.privacy {
+	color: #fed136;
+}
+
+.privacy:hover {
+	color: #fed136;
+}
+
+.terms {
+	color: #fed136;
+}
+
+.terms:hover {
+	color: #fed136;
+}
+
+.social-icons {
+	position: relative;
+	top: 14px;
+}
